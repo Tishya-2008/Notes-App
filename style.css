@@ -49,7 +49,7 @@ h1 {
   font-size: 40px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   margin-bottom: 10px;
-  background-image: linear-gradient(#8f567f, white, #8f567f);
+  background-image: linear-gradient(#8f567f, white,white, #8f567f);
   border-style:solid;
   border-color: #6e305c;
   padding: 10px;
@@ -128,13 +128,13 @@ hr {
   padding: 20px;
 }
 
-body{
-  background-image: linear-gradient(to bottom right, #501e43, #e3b6d6);
-}
-
 .footer{
   color: white;
   text-align: center;
   font-weight: bold;
   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: #9f7493;
 }
