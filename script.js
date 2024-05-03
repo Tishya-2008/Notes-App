@@ -30,7 +30,7 @@ searchButton.addEventListener('click', () => {
   const searchTerm = searchInput.value.trim().toLowerCase();
   if (searchTerm) {
     const filteredNotes = notes.filter(note => {
-      return note.title.toLowerCase().includes(searchTerm) || note.note.toLowerCase().includes(searchTerm);
+      return note.title.toLowerCase().includes(searchTerm);
     });
     createNotes(filteredNotes);
   } else {
